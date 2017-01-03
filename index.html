@@ -5,9 +5,9 @@
     <meta name = "keywords" content = "Mexican,store,Lansing,Michigan,Mi,La,Estrellita">
     <meta name = "author" content = "Jonathan Sarmiento">
     <title> Supermercado La Estrellita </title>
+   
     
-    
-    <div class="Language"><p><a href="spanish_home.html">Espanol</a></p></div>
+    <div class="Language"><p><a href="spanish_home.html">Espa&ntilde;ol</a></p></div>
     <h2>Supermercado La Estrellita</h2> 
    
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -47,8 +47,28 @@
         </div>
     </nav>
           
-            <p> We are a local Mexican grocery store located in Lansing Michigan. 
-            For over 8 years, we have offered authentic Mexican products, fresh produce, 
+            <script >
+            var today = new Date();
+                        var hourNow = today.getHours();
+                        var greeting;
+
+                        if (hourNow >= 18) 
+                        {
+                        greeting = "Good Evening!";
+                        }
+                        else if (hourNow >= 12) {
+                        greeting = "Good Afternoon!";
+                        }
+                        else if (hourNow >= 0) {
+                        greeting  = "Good Morning!";
+                        }
+                        else  {
+                        greeting = "Welcome!";
+                        }
+                        document.write('<h3>' + greeting + '</h3>');
+            </script>
+            <p> We are a local family owned Mexican grocery store located in Lansing Michigan. 
+            For over 9 years, we have offered authentic Mexican products, fresh produce, 
             fresh Mexican bread,
             <br> and takeout food. 	
             </p>
@@ -62,6 +82,7 @@
             </address>
     
          
+    <!-- Has to be commented out for legal reasons :)
     <div class="container-fluid" id="envioLogos">
         <div class="row">
           
@@ -85,9 +106,9 @@
         </div>
     
     </div> 
-    
+    -->
 <hr>
-    <p id="copyright"> &copy;JSar 2016</p>
+    <p id="copyright"> &copy;JSar 2017 v 1.0</p>
 
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
