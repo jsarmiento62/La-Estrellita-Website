@@ -25,14 +25,26 @@ h3
 {
     font-family: cursive !important;
 }
-#navbar
-{
 
-   display: inline-block !important;
-    
 }
 .Language
 {
     text-align: right;
     
+}
+
+.greetings
+{
+    text-align: center;
+}
+
+.footer{
+    font-size: 10px;
+}
+.navbar{
+    margin-bottom: 50px;
+}
+.storeLogo{
+    height: 50px;
+    width: 50px;
 }
