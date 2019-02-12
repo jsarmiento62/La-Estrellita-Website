@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name = "keywords" content = "Mexican,store,Lansing,Michigan,Mi,La,Estrellita">
-    <meta name = "author" content = "Jonathan Sarmiento">
-    <title> Supermercado La Estrellita </title>
-    
-    
-    <div class="Language"><p><a href="index.html">English</a></p></div>
-    <h2>Supermercado La Estrellita</h2> 
    
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-   <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js> </script>
-
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="./styles/main.css">
+    
 </head>
+
+	
     
 <body>
-    <nav class="navbar navbar-default ">
-        <div class = "container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main" aria-expanded="false">
-                    <span class ="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="spanish_home.html" class="pull-left"><img id="logo" src="pictures/storeLogo.jpg" width=50px height=50px padding=0px  alt="store logo"></a>
-            </div>
-        <!-- Menu Items -->
-            <div class="collapse navbar-collapse" id="main">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="spanish_home.html">Inicio</a></li>
-                    <li><a href="takeout-spanish.html">Taqueria</a></li>
-                    <li><a href="jewelry-spanish.html">Joyeria</a></li>
-                    <li><a href="bakery-spanish.html">Panaderia</a></li>
-                    <li><a href="products-spanish.html">Productos</a></li>
-                </ul>
-            
-            </div>
-        </div>
-    </nav>
-          
-            <script >
+		
+     <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="spanish_home.html"><img class="storeLogo" src="pictures/storeLogo.jpg"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link active" href="spanish_home.html">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="takeout-spanish.html">Para Llevar</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="bakery-spanish.html">Panaderia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products-spanish.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+    </div>
+
+          <div class="container">
+               <h2>Supermercado La Estrellita</h2>
+              <br>
+                <script >
                     var today = new Date();
                     var hourNow = today.getHours();
                     var greeting;
@@ -66,11 +60,11 @@
                     greeting = "Bienvenidos!";
                     }
                     document.write('<h3>' + greeting + '</h3>');
-            </script>
-            <p>Sommos una tienda Mexicano localizad en Lansing,Michigan. Por ocho anos le amos servido con precios bajos. Le offecemos productos Mexicanos, Pan dulce fresco, y comida caliente.
+                </script>
+            <p>Somos una tienda Mexicana localizada en Lansing, Michigan. Por ocho a&ntilde;os le amos servido con precios bajos. Le ofrecemos productos Mexicanos, pan dulce fresco, y comida caliente.
             	
             </p>
-            <img class = "img-responsive" src = "pictures/2011-10-13%2008.55.59.jpg" alt="Picture of the Building" height=300px	width=700px >
+            <img class = "rounded img-fluid " src = "pictures/2011-10-13%2008.55.59.jpg" alt="Picture of the Building" height=300px	width=700px >
          
    
     
@@ -79,36 +73,24 @@
               Fax: 517-267-1280 
             </address>
     
-<!-- Has to be commented out for legal reason :)         
-    <div class="container-fluid" id="envioLogos">
-        <div class="row">
-          
-            <div class="col-xs-12">
-                
-                <img src="pictures/envios/intercambio.png" alt="intercambio express" height=25% width=16%>
-           
-           
-            
-           
-                 <img src="pictures/envios/sigue.jpeg" alt="Sigue Money wires" height=16% width=16%>
-            
-          
-            
-            
-                <img src="pictures/envios/vigo.png" alt="Vigo Money Wires" height=16% width=16%>
-                
-                <img src="pictures/envios/westernUnion.png" alt = "Western Union Logo" height = 16% width = 16%>
-            
-           </div>
+
+
+            <hr>
+        <div class="">
+            <a href="index.html">English</a>
+        </div>
+<div class="text-right footer">
+            <p> &copy;JSar 2019</p>
+  
         </div>
     
-    </div> 
--->    
-<hr>
-    <p id="copyright"> &copy;JSar 2017 v 1.0</p>
-
-    <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    </div>
+    
+<!-- Bootstrap stuff -->    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 

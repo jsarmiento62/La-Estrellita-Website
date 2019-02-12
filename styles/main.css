@@ -1,3 +1,4 @@
+
 body
 {
     text-align: center;
@@ -21,7 +22,7 @@ p
     font-size: 115% !important;
    
 }
-h3
+h2
 {
     font-family: cursive !important;
 }
@@ -43,8 +44,24 @@ h3
 }
 .navbar{
     margin-bottom: 50px;
+    color: #FFFFFF;
 }
 .storeLogo{
     height: 50px;
     width: 50px;
+}
+#navigation,.navbar .navbar-default{
+  background-color: blue;
+}
+.container{
+    background-color: #FFFFFF;
+}
+.navbar-light{
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#FFFFFF;
+}
+.bg-light{
+    background-color: #006847!important;  
 }
